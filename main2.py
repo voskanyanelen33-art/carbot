@@ -1,5 +1,5 @@
 ﻿import joblib
-model = joblib.load('/content/car_pipeline')
+model = joblib.load('car_pipeline')
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from  pydantic import BaseModel
